@@ -1,14 +1,8 @@
 
-<suite name="Suite">
-<listeners>
-<listener class-name="TestNG_Demo.MyAnnotationTransformer">
-</listener>
-</listeners>
-  <test thread-count="5" name="Test">
+<suite name="SuiteValidLogin">
+  <test thread-count="5" name="LoginTest">
     <classes>
-      
-      <class name="TestNG_Demo.ExecuteFailedTest"/>
-      
+      <class name="com.demoProject.testCases.testCase_01_Login"/>
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+  </test> <!-- LoginTest -->
+</suite> <!-- SuiteValidLogin -->
