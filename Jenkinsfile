@@ -32,7 +32,7 @@ pipeline {
     {
         always
         {
-            emailext body: '', subject: 'Pipeline status', to: 'akashrathod451@gmail.com'
+            emailext body: '', recipientProviders: [buildUser()], subject: 'Pipeline status', to: 'akashrathod451@gmail.com'
         }
     }
 }
