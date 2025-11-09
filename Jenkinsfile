@@ -28,8 +28,10 @@ pipeline {
             }
         }
     }
-    post{
-        always{
+    post
+    {
+        always
+        {
             emailext body: '', subject: '', to: 'akashrathod451@gmail.com'
         }
     }
