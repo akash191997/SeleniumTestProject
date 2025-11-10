@@ -132,8 +132,9 @@
 
 			<!-- Surefire Plugin (for TestNG) -->
 			<plugin>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>3.2.5</version>
+				<groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <version>3.2.5</version>
 				<configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
