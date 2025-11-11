@@ -1,8 +1,14 @@
-
-<suite name="SuiteValidLogin">
-  <test thread-count="5" name="LoginTest">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
     <classes>
+      <class name="com.demoProject.testCases.testCase02_Screenshots"/>
       <class name="com.demoProject.testCases.testCase_01_Login"/>
+      <class name="TestNG_Demo.ExecuteFailedTest"/>
+      <class name="Selenium.TestNG"/>
+      <class name="com.demoProject.generic.BaseTest"/>
+      <class name="Selenium.Hello"/>
     </classes>
-  </test> <!-- LoginTest -->
-</suite> <!-- SuiteValidLogin -->
+  </test> 
+</suite> 
